@@ -72,10 +72,10 @@ ethernet:
   miso_pin: GPIO33
   cs_pin: GPIO15
   reset_pin: GPIO4
-  manual_ip:
-    static_ip: !secret artnet_local_ip
-    gateway: 10.1.1.1
-    subnet: 255.255.255.0
+  # manual_ip:
+  #   static_ip: !secret artnet_local_ip
+  #   gateway: 10.1.1.1
+  #   subnet: 255.255.255.0
 
 logger:
   baud_rate: 0
